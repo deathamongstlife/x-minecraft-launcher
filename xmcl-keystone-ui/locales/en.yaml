@@ -585,7 +585,7 @@ instances:
   addVanilla: Create from vanilla-like Minecraft
   addVanillaDescription: >-
     Import from common .minecraft folder. This will duplciate the original game
-    profile to XMCL.
+    profile to Rose.
   choose: Select Game
   fix: Repair
   folderSetting: Folder Settings
@@ -1411,7 +1411,7 @@ setting:
   developerMode: Developer Mode
   developerModeDescription: Developer Mode is for testing your own mods
   disableTelemetry: Disable Telemetry
-  disableTelemetryDescription: XMCL will collect the game launch and user login events.
+  disableTelemetryDescription: Rose will collect the game launch and user login events.
   enableDedicatedGPUOptimization: Assign Dedicated GPU
   enableDedicatedGPUOptimizationDescription: This option will assign dedicated GPU to Minecraft process.
   enableDiscord: Enable Discord Presence
@@ -1500,7 +1500,7 @@ setup:
     name: '@:setting.appearance'
   dataRoot:
     description: >-
-      The data root is not a common .minecraft directory. Since XMCL data
+      The data root is not a common .minecraft directory. Since Rose data
       directory structure is different from vanilla, we do not recommend to use
       the common .minecraft directory as a data root.
     drives: Recommend Locations

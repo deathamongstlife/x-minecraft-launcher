@@ -38,7 +38,7 @@ Dla strony renderującej, która jest czystym frontendem:
 - xmcl-runtime
   - Główna implementacja architektury launchera. Zależy tylko od Node.js i nie wymaga środowiska wykonawczego Electron.
 - xmcl-runtime-api
-  - To jest współdzielony kod i API dla środowiska wykonawczego XMCL. Może być używany dla aplikacji renderującej (strona przeglądarki)
+  - To jest współdzielony kod i API dla środowiska wykonawczego Rose. Może być używany dla aplikacji renderującej (strona przeglądarki)
 
 ### Koncepcja/Struktura
 

@@ -231,7 +231,7 @@ export class ElectronController implements LauncherAppController {
   async startMigrate() {
     const restoredSession = this.app.session.getSession(defaultApp.url)
     const browser = new BrowserWindow({
-      title: 'XMCL Launcher Migrate',
+      title: 'Rose Launcher Migrate',
       frame: false,
       resizable: false,
       width: 600,
@@ -273,7 +273,7 @@ export class ElectronController implements LauncherAppController {
 
   async createBrowseWindow() {
     const browser = new BrowserWindow({
-      title: 'XMCL Launcher Browser',
+      title: 'Rose Launcher Browser',
       frame: false,
       transparent: true,
       resizable: false,

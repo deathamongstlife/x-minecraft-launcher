@@ -86,7 +86,7 @@ Para desarrolladores de i18n y localización, por favor sigue la [Guía de inici
 
 | [![](https://github.com/DGP-Studio/Snap.Hutao/assets/10614984/73ae8b90-f3c7-4033-b2b7-f4126331ce66)](https://signpath.io/) | Firma de código gratuita en Windows proporcionada por [SignPath.io](https://signpath.io/), certificado por [SignPath Foundation](https://signpath.org/) |
 | :----------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
-| [![](https://deno.com/images/deno_logo_4.gif)](https://deno.com/deploy) | [Deno Deploy](https://deno.com/deploy), XMCL aprovecha su plataforma sin complicaciones para aplicaciones JavaScript sin servidor. Proporcionado por [Deno](https://deno.com/)   |
+| [![](https://deno.com/images/deno_logo_4.gif)](https://deno.com/deploy) | [Deno Deploy](https://deno.com/deploy), Rose aprovecha su plataforma sin complicaciones para aplicaciones JavaScript sin servidor. Proporcionado por [Deno](https://deno.com/)   |
 | [![](assets/EdgeOne.png)](https://edgeone.ai/) | [Mejores soluciones CDN, Edge y de Seguridad de Asia - Tencent EdgeOne](https://edgeone.ai/), la aceleración CDN y protección de seguridad para este proyecto están patrocinadas por Tencent EdgeOne. |
 
 ### Patrocinador (AFDIAN)

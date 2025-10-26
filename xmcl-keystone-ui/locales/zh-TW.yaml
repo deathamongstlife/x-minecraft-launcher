@@ -557,7 +557,7 @@ instances:
   addVanilla: 從原版 Minecraft 建立
   addVanillaDescription: |-
     從通用 .minecraft 資料夾匯入。
-    這會將原始遊戲設定檔案複製到 XMCL。
+    這會將原始遊戲設定檔案複製到 Rose。
   choose: 選擇遊戲
   fix: 修復
   folderSetting: 資料夾設定
@@ -1323,11 +1323,11 @@ setting:
   developerMode: 開發者模式
   developerModeDescription: 開發者模式旨在協助您測試自己寫的模組
   disableTelemetry: 停用遙測
-  disableTelemetryDescription: XMCL 會收集遊戲啟動以及使用者登入事件
+  disableTelemetryDescription: Rose 會收集遊戲啟動以及使用者登入事件
   enableDedicatedGPUOptimization: 分配專用 GPU
   enableDedicatedGPUOptimizationDescription: 此選項將為 Minecraft 程序分配專用 GPU。
   enableDiscord: 啟用 Discord Presence
-  enableDiscordDescription: 根據 XMCL 實時更新 Discord 的狀態
+  enableDiscordDescription: 根據 Rose 實時更新 Discord 的狀態
   general: 基本設定
   githubRelease: Github
   globalSetting: 全域性實例設定
@@ -1409,7 +1409,7 @@ setup:
   appearance:
     name: '@:setting.appearance'
   dataRoot:
-    description: 資料儲存目錄不是常規的 .minecraft 目錄。因為 XMCL 的資料目錄格式特殊，不建議將常規 .minecraft 目錄設定為資料目錄。
+    description: 資料儲存目錄不是常規的 .minecraft 目錄。因為 Rose 的資料目錄格式特殊，不建議將常規 .minecraft 目錄設定為資料目錄。
     drives: 推薦路徑
     name: 設定資料儲存目錄
   defaultLayoutDescription: |-

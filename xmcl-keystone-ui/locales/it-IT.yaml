@@ -583,7 +583,7 @@ instances:
   addVanilla: Crea da Minecraft vanilla
   addVanillaDescription: >-
     Importa dalla cartella .minecraft comune. Questo duplicherà il profilo di
-    gioco originale in XMCL.
+    gioco originale in Rose.
   choose: Seleziona gioco
   fix: Sistemati
   folderSetting: Impostazioni della cartella
@@ -1439,7 +1439,7 @@ setting:
   developerMode: Modalità sviluppatore
   developerModeDescription: La modalità sviluppatore è destinata a testare i mod scritti personalmente
   disableTelemetry: Disabilita telemetria
-  disableTelemetryDescription: XMCL racoglie gli eventi di avvio del gioco e di accesso dell'utente.
+  disableTelemetryDescription: Rose racoglie gli eventi di avvio del gioco e di accesso dell'utente.
   enableDedicatedGPUOptimization: Assegna GPU dedicata
   enableDedicatedGPUOptimizationDescription: Questa opzione assegnerà una GPU dedicata al processo di Minecraft.
   enableDiscord: Abilita la presenza di Discord
@@ -1533,7 +1533,7 @@ setup:
   dataRoot:
     description: >-
       La directory dei dati non è una directory ".minecraft" standard. perché la
-      struttura dei dati di XMCL è diversa da quella standard, non consigliamo
+      struttura dei dati di Rose è diversa da quella standard, non consigliamo
       di utilizzare la directory ".minecraft" standard come directory dei dati.
     drives: Posizioni consigliate
     name: Imposta directory dati

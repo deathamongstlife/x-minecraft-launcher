@@ -33,7 +33,7 @@
 
 Besuche die [offizielle Website](https://xmcl.app), um die App herunterzuladen!
 
-Falls du winget verwenden möchtest, kannst du XMCL so installieren:
+Falls du winget verwenden möchtest, kannst du Rose so installieren:
 
 ```bash
 winget install CI010.XMinecraftLauncher

@@ -597,7 +597,7 @@ instances:
   addVanilla: Створити з ванільного Minecraft
   addVanillaDescription: >-
     Імпортувати зі звичайної папки .minecraft. Це продублює оригінальний ігровий
-    профіль в XMCL.
+    профіль в Rose.
   choose: Вибрати гру
   fix: Відновити
   folderSetting: Налаштування папки
@@ -1450,7 +1450,7 @@ setting:
   developerMode: Режим розробника
   developerModeDescription: Режим розробника призначений для тестування ваших власних модів
   disableTelemetry: Вимкнути телеметрію
-  disableTelemetryDescription: XMCL збиратиме події запуску гри та входу користувачів.
+  disableTelemetryDescription: Rose збиратиме події запуску гри та входу користувачів.
   enableDedicatedGPUOptimization: Призначити дискретну відеокарту
   enableDedicatedGPUOptimizationDescription: Ця опція призначить дискретну відеокарту процесу Minecraft.
   enableDiscord: Увімкнути присутність Discord
@@ -1542,7 +1542,7 @@ setup:
   dataRoot:
     description: >-
       Кореневий каталог даних - це не звичайний каталог .minecraft. Оскільки
-      структура каталогу даних XMCL відрізняється від ванільної, ми не
+      структура каталогу даних Rose відрізняється від ванільної, ми не
       рекомендуємо використовувати звичайний каталог .minecraft як кореневий
       каталог даних.
     drives: Рекомендовані місця

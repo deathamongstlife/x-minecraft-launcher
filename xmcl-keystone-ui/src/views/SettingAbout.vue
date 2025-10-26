@@ -9,7 +9,7 @@
           <v-card flat class="mb-6 card">
             <div>
               <v-card-title class="w-full flex mr-2 title">
-                <v-img src="http://launcher/icons/logoDark" alt="XMCL Logo" max-width="64" class="mr-4"></v-img>
+                <v-img src="http://launcher/icons/logoDark" alt="Rose Logo" max-width="64" class="mr-4"></v-img>
                 <div>
                   <a class="text-h5" href="https://www.xmcl.app">X Minecraft Launcher</a>
                   <div class="flex justify-center items-center gap-2 pt-1">
@@ -63,7 +63,7 @@
                   <a href="https://deno.com/deploy" target="_blank" class="">
                     <v-img src="https://deno.com/images/deno_logo_4.gif" max-width="120" contain class="mb-2"></v-img>
                   </a>
-                  <div class="text-caption mb-4"> XMCL leverages Deno Deploy's hassle-free platform for serverless
+                  <div class="text-caption mb-4"> Rose leverages Deno Deploy's hassle-free platform for serverless
                     JavaScript
                     applications </div>
                 </div>

@@ -21,13 +21,13 @@ export async function exposeLocalPort(priv: number, pub: number) {
   if (!await isSupported()) return false
   const ip = await getNatAddress()
   const mappings = [{
-    description: `XMCL Multiplayer - udp - ${priv} - ${pub}`,
+    description: `Rose Multiplayer - udp - ${priv} - ${pub}`,
     protocol: 'udp',
     private: priv,
     public: pub,
     ttl: 24 * 60 * 60,
   }, {
-    description: `XMCL Multiplayer - tcp - ${priv} - ${pub}`,
+    description: `Rose Multiplayer - tcp - ${priv} - ${pub}`,
     protocol: 'tcp',
     private: priv,
     public: pub,
@@ -35,7 +35,7 @@ export async function exposeLocalPort(priv: number, pub: number) {
   }] as UpnpMapOptions[]
 
   const currentMappings = await getMappings()
-  const existedMappings = currentMappings.filter(m => m.description.indexOf('XMCL Multiplayer') !== -1 &&
+  const existedMappings = currentMappings.filter(m => m.description.indexOf('Rose Multiplayer') !== -1 &&
     m.private.port === priv &&
     m.private.host === ip &&
     m.public.port === pub &&

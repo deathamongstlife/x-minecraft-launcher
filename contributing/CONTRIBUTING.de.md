@@ -38,7 +38,7 @@ Für den Renderer, die das komplette Frontend ist:
 - xmcl-runtime
   - Die Kernimplementierung der Launcher-Architektur. Hängt nur von Node.js ab und erfordert keine Electron-Laufzeitumgebung.
 - xmcl-runtime-api
-  - Der gemeinsam genutzte Code & die API der XMCL-Laufzeitumgebung. Er kann für Renderer-Apps (Browserseitig) verwendet werden.
+  - Der gemeinsam genutzte Code & die API der Rose-Laufzeitumgebung. Er kann für Renderer-Apps (Browserseitig) verwendet werden.
 
 ### Konzept/Struktur
 

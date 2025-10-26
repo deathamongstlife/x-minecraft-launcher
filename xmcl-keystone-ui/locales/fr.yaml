@@ -1461,7 +1461,7 @@ setting:
   developerModeDescription: Le mode développeur vise à tester votre propre mod
   disableTelemetry: Désactiver la télémétrie
   disableTelemetryDescription: >-
-    XMCL collectera les événements de lancement du jeu et de connexion de
+    Rose collectera les événements de lancement du jeu et de connexion de
     l'utilisateur.
   enableDedicatedGPUOptimization: Attribuer un GPU dédié
   enableDedicatedGPUOptimizationDescription: Cette option attribuera un GPU dédié au processus Minecraft.
@@ -1551,7 +1551,7 @@ setup:
   dataRoot:
     description: >-
       La racine des données n'est pas un répertoire .minecraft commun. Étant
-      donné que la structure du répertoire de données XMCL est différente de
+      donné que la structure du répertoire de données Rose est différente de
       celle vanilla, nous ne recommandons pas d'utiliser le répertoire commun
       .minecraft comme racine de données.
     drives: Recommander des emplacements

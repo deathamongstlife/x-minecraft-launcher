@@ -51,7 +51,7 @@ winget install CI010.XMinecraftLauncher
 - 📦 支持 CurseForge, Modrinth 与 MCBBS 格式整合包的导入与导出。
 - 🔒 **支持多种账号系统**。内置支持 Microsoft 和 Mojang Yggdrasil API。内置支持 [LittleSkin](https://littleskin.cn)，您也可以自行添加新的第三方验证服务！
 - 🔗 **用户之间的 P2P 联机**。两人不用担心不在一个局域网下没法 LAN 联机的问题了！
-- 🔑 **代码签名与现代的安装模式**。在 Windows 中下载 XMCL 的 `appx` 与 `appinstaller`，您不会再看到浏览器的危险软件提示，因为 XMCL 已经获得签名证书！😎
+- 🔑 **代码签名与现代的安装模式**。在 Windows 中下载 Rose 的 `appx` 与 `appinstaller`，您不会再看到浏览器的危险软件提示，因为 Rose 已经获得签名证书！😎
 
 ## 参与开发
 

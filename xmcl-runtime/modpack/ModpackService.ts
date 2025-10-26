@@ -30,7 +30,7 @@ export interface ModpackDownloadableFile {
   metadata: ResourceMetadata
 }
 
-type SelectedXMCLFields = Pick<InstanceData, 'disableElybyAuthlib' | 'disableAuthlibInjector' | 'upstream' | 'server' | 'resolution' | 'showLog' | 'hideLauncher'>
+type SelectedRoseFields = Pick<InstanceData, 'disableElybyAuthlib' | 'disableAuthlibInjector' | 'upstream' | 'server' | 'resolution' | 'showLog' | 'hideLauncher'>
 
 const transformFile = (file: InstanceFile) => {
   file.path = file.path.replaceAll('\\', '/')
@@ -178,7 +178,7 @@ export class ModpackService extends AbstractService implements IModpackService {
 
     let curseforgeConfig: CurseforgeModpackManifest | undefined
     let modrinthManifest: ModrinthModpackManifest | undefined
-    let xmclManifestExtension: SelectedXMCLFields = {
+    let xmclManifestExtension: SelectedRoseFields = {
       disableElybyAuthlib: instance.disableElybyAuthlib,
       disableAuthlibInjector: instance.disableAuthlibInjector,
       upstream: instance.upstream,
@@ -473,11 +473,11 @@ export class ModpackService extends AbstractService implements IModpackService {
       this.log(`Parse modpack profile ${modpackFile} with handler ${handler.constructor.name}`)
       const instance = handler.resolveInstanceOptions(manifest)
 
-      let xmclCache: SelectedXMCLFields | undefined
+      let xmclCache: SelectedRoseFields | undefined
       if (zip.entries['xmcl.json']) {
         try {
           const b = await readEntry(zip.file, zip.entries['xmcl.json'])
-          xmclCache = JSON.parse(b.toString()) as SelectedXMCLFields
+          xmclCache = JSON.parse(b.toString()) as SelectedRoseFields
         } catch { }
       }
 

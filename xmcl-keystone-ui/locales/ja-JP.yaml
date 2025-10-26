@@ -540,7 +540,7 @@ instances:
   addTemplate: ダウンロードしたmodpackから作成
   addTemplateDescription: ダウンロードされたModpackからインポート
   addVanilla: Vanilla-LikeなMinecraftから作成
-  addVanillaDescription: 一般的な.minecraftフォルダからインポートします。これは元のプロファイルをXMCLに複製します。
+  addVanillaDescription: 一般的な.minecraftフォルダからインポートします。これは元のプロファイルをRoseに複製します。
   choose: ゲームを選択
   fix: 直す
   folderSetting: フォルダーの設定
@@ -1303,11 +1303,11 @@ setting:
   developerMode: 開発者モード
   developerModeDescription: あなたの作成したModを簡単に試せます
   disableTelemetry: テレメトリを無効化
-  disableTelemetryDescription: XMCLはゲームの立ち上げとユーザーイベントを収集します
+  disableTelemetryDescription: Roseはゲームの立ち上げとユーザーイベントを収集します
   enableDedicatedGPUOptimization: 外部GPUを使用
   enableDedicatedGPUOptimizationDescription: Minecraftのプロセスに外部GPUを割り当てます
   enableDiscord: Discord RPCを有効化
-  enableDiscordDescription: XMCLでのリッチプレゼンス
+  enableDiscordDescription: Roseでのリッチプレゼンス
   general: 一般
   githubRelease: Github リリース
   globalSetting: グローバル設定
@@ -1384,7 +1384,7 @@ setup:
     name: '@:setting.appearance'
   dataRoot:
     description: >-
-      データのルートは一般的な.minecraftディレクトリではありません。XMCLのディレキトリ構造はバニラとは互換性がないので、.minecraftをデータのルートに設定することは推奨されません。
+      データのルートは一般的な.minecraftディレクトリではありません。Roseのディレキトリ構造はバニラとは互換性がないので、.minecraftをデータのルートに設定することは推奨されません。
     drives: 推奨の言語
     name: データディレクトリを設定
   defaultLayoutDescription: >-

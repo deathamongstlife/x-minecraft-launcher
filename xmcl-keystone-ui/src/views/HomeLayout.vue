@@ -45,7 +45,7 @@ import HomeDropModpackDialog from './HomeDropModpackDialog.vue'
 const router = useRouter()
 
 router.afterEach((r) => {
-  document.title = `XMCL KeyStone - ${r.fullPath}`
+  document.title = `Rose KeyStone - ${r.fullPath}`
   if (containerRef.value) {
     containerRef.value.scrollTop = 0
   }

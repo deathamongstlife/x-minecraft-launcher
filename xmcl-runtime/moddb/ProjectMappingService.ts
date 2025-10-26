@@ -78,8 +78,8 @@ export class ProjectMappingService extends AbstractService implements IProjectMa
 
       const urls = gfw.inside && hasLocaleDb
         ? [
-          `https://files.0x.halac.cn/Services/XMCL/project-mapping/${locale}.sqlite.gz`,
-          `https://files-0x.halac.cn/Services/XMCL/project-mapping/${locale}.sqlite.gz`,
+          `https://files.0x.halac.cn/Services/Rose/project-mapping/${locale}.sqlite.gz`,
+          `https://files-0x.halac.cn/Services/Rose/project-mapping/${locale}.sqlite.gz`,
           original + '.gz',
         ]
         : [

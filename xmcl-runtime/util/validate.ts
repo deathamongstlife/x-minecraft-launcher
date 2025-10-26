@@ -4,7 +4,7 @@ import { randomBytes } from 'crypto'
 import { existsSync, mkdir, readdir, rmdir, stat, unlink, writeFile } from 'fs-extra'
 import { dirname, join, resolve } from 'path'
 
-async function isExistedXMCLDir(path: string) {
+async function isExistedRoseDir(path: string) {
   const versions = join(path, 'versions')
   const versionsExisted = existsSync(versions)
   const libraries = join(path, 'libraries')
@@ -74,7 +74,7 @@ export async function validateDirectory(platform: Platform, path: string, skipCh
       return 'bad'
     }
     // Check if the directory is empty
-    if (await isExistedXMCLDir(path)) {
+    if (await isExistedRoseDir(path)) {
       return undefined
     }
     const files = await readdir(path)

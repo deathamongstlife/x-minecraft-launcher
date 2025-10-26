@@ -39,7 +39,7 @@
 - xmcl-runtime
   - 启动器架构的核心实现。它只依赖 Node.js，不需要 Electron 运行时。
 - xmcl-runtime-api
-  - 这是 XMCL 运行时的共享代码与 API。它可用于渲染器应用程序（浏览器侧）
+  - 这是 Rose 运行时的共享代码与 API。它可用于渲染器应用程序（浏览器侧）
 
 ### 概念与结构
 

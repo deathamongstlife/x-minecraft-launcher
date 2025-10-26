@@ -13,7 +13,7 @@ export const config = {
     app: '.',
   },
   protocols: {
-    name: 'XMCL',
+    name: 'Rose',
     schemes: ['xmcl'],
   },
   // assign publish for auto-updater

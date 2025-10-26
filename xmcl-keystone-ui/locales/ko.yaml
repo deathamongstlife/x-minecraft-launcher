@@ -529,7 +529,7 @@ instances:
   addTemplate: 다운로드된 모드팩에서 생성
   addTemplateDescription: 다운로드된 모드팩에서 가져오기
   addVanilla: 바닐라 마인크래프트에서 생성
-  addVanillaDescription: 일반 .minecraft 폴더에서 가져오기. 원본 게임 프로필을 XMCL로 복제합니다.
+  addVanillaDescription: 일반 .minecraft 폴더에서 가져오기. 원본 게임 프로필을 Rose로 복제합니다.
   choose: 게임 선택
   fix: 수리
   folderSetting: 폴더 설정
@@ -1295,7 +1295,7 @@ setting:
   developerMode: 개발자 모드
   developerModeDescription: 개발자 모드는 자신의 모드를 테스트하기 위한 것입니다
   disableTelemetry: 원격 분석 비활성화
-  disableTelemetryDescription: XMCL이 게임 실행 및 사용자 로그인 이벤트를 수집합니다.
+  disableTelemetryDescription: Rose이 게임 실행 및 사용자 로그인 이벤트를 수집합니다.
   enableDedicatedGPUOptimization: 전용 GPU 할당
   enableDedicatedGPUOptimizationDescription: 이 옵션은 마인크래프트 프로세스에 전용 GPU를 할당합니다.
   enableDiscord: Discord 상태 표시 활성화
@@ -1378,7 +1378,7 @@ setup:
     name: '@:setting.appearance'
   dataRoot:
     description: >-
-      최상위 폴더가 일반적인 .minecraft 디렉터리가 아닙니다.  XMCL 데이터 디렉터리 구조는 기본 버전과 다르기 때문에, 
+      최상위 폴더가 일반적인 .minecraft 디렉터리가 아닙니다.  Rose 데이터 디렉터리 구조는 기본 버전과 다르기 때문에, 
       일반적인 .minecraft 디렉터리를 최상위 폴더로 사용하는 것을 권장하지 않습니다.
     drives: 권장 위치
     name: 데이터 디렉터리 설정
