@@ -23,12 +23,14 @@ export class ErrorDiagnose {
    * @returns `true` to ignore error
    */
   processError(e: Error): boolean {
-    if (e.name === 'SQLite3Error' && e.message === 'disk I/O error') {
-      // Ignore disk I/O error if the disk is full
-      this.#sqlDiskIOError = true
+    if (e.name === 'SQLite3Error') {
+      if (e.message.startsWith('disk I/O error')) {
+        this.#sqlDiskIOError = true
+      }
+      // Ignore sqlite error if the disk is full
       return this.#foundDiskFullError
     }
-    if (e.name === 'Error' && isSystemError(e) && e.code === 'ENOSPC') {
+    if (isSystemError(e) && e.code === 'ENOSPC') {
       if (!this.#foundDiskFullError) {
         return true
       }
